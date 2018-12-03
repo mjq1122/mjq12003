@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:id="@+id/img_thumbnail_pic_s"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:textSize="20dp"
+        android:text="标题"
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textSize="15dp"
+        android:text="时间"
+        android:id="@+id/text_date"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

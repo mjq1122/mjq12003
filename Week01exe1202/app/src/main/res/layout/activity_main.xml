@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bwei.week01exe1202.MainActivity">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_add"
+        android:text="搜索"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:textSize="25sp"
+        android:text="搜索历史"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.bwei.week01exe1202.MyView
+        android:id="@+id/main_myView"
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.bwei.week01exe1202.MyView>
+    <TextView
+        android:textSize="25sp"
+        android:text="热门搜索"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.bwei.week01exe1202.MyView
+        android:id="@+id/main_myView2"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="海底捞"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="上上签"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="呷哺呷哺"
+            android:padding="10dp"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="虾吃虾涮"
+            android:padding="10dp"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="宽板凳"
+            android:padding="10dp"
+            android:textSize="20sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="炭火蛙锅"
+            android:padding="10dp"
+            android:textSize="20sp" />
+    </com.bwei.week01exe1202.MyView>
+    <Button
+        android:text="清空历史"
+        android:id="@+id/btn_clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

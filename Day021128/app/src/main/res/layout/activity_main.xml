@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.bwei.day021128.MainActivity">
+
+    <com.bwei.day021128.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="点点豆豆"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="米粮二斗"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="和尚不在"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="先去你走"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="走到大门口"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="拿起机关枪来大三下"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="PiuPiuPiu"
+            android:textSize="25sp"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </com.bwei.day021128.FlowLayout>
+
+    <!--<com.bwei.day021128.AddSubLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.bwei.day021128.AddSubLayout>-->
+
+</LinearLayout>
